@@ -1,0 +1,26 @@
+{
+  "name": "sesd-ecommerce-system",
+  "version": "1.0.0",
+  "description": "ShopCore - Premium Tech Accessories E-commerce System",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ecommerce", "typescript", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
